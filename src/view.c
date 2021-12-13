@@ -278,6 +278,10 @@ static void cb_focus_event(GtkWidget *view, GdkEventFocus *event)
 				GTK_TEXT_VIEW(view)->buffer), !event->in);
 	if (event->in)
 		menu_sensitivity_from_clipboard();
+  else if (gtk_text_buffer_get_modified(GTK_TEXT_VIEW(view)->buffer))
+  {
+    on_file_save();
+  }
 }
 /*
 static void cb_begin_user_action(GtkTextBuffer *buffer, GtkWidget *view)
