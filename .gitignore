@@ -1,5 +1,14 @@
 # http://www.gnu.org/software/automake
 
+src/leafpad
+.deps/
+*.o
+*.gmo
+po/stamp-it
+po/POTFILES
+po/.intltool*
+config.h
+
 Makefile.in
 /ar-lib
 /mdate-sh
