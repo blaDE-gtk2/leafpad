@@ -7,4 +7,5 @@ Icon=leafpad
 Terminal=false
 Type=Application
 MimeType=text/plain
+StartupNotify=true
 Categories=GTK;Utility;TextEditor;
