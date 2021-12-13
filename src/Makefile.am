@@ -1,6 +1,6 @@
 bin_PROGRAMS = leafpad
 
-INCLUDES = -DICONDIR=\"$(datadir)/pixmaps\"
+AM_CPPFLAGS = -DICONDIR=\"$(datadir)/pixmaps\"
 
 leafpad_SOURCES = \
 	leafpad.h main.c \

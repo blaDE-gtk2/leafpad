@@ -1,3 +1,10 @@
+This is a fork, the differences from the original leafpad are:  
+
+  - added patch from Arch that fixes bug when writing to files on Samba
+  - Auto save files when focus is lost
+
+---
+
 Leafpad - GTK+ based simple text editor
 
 
